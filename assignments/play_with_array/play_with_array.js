@@ -1,4 +1,12 @@
 function getEven(arr) {
+    let ar = [];
+    for(x of arr){
+        if(x%2===0){
+            ar.push(x);
+        }
+    }
+    return ar
+    
     /* 
         Return an array containing only even numbers as a result
         Example
@@ -8,9 +16,17 @@ function getEven(arr) {
         Write you code below
     */
 
+
 }
 
 function multiplyByN(arr, n) {
+    function mul_by_N(num)
+    {
+       return num * n
+    }
+    arr = arr.map(mul_by_N)
+    return arr
+    
     /* 
         Return an array whose elements are multiplied by n
         Example
@@ -21,6 +37,9 @@ function multiplyByN(arr, n) {
 }
 
 function removeNthElement(arr, n) {
+  
+    arr.splice(n,1);
+    return arr;
     /*
         Return the array with the element present at index n removed
         Example
