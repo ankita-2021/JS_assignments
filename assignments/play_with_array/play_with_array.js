@@ -6,6 +6,7 @@ function getEven(arr) {
         }
     }
     return ar
+  
     
     /* 
         Return an array containing only even numbers as a result
@@ -26,6 +27,7 @@ function multiplyByN(arr, n) {
     }
     arr = arr.map(mul_by_N)
     return arr
+    
     
     /* 
         Return an array whose elements are multiplied by n
