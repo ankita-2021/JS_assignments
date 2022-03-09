@@ -6,6 +6,7 @@ function getEven(arr) {
         }
     }
     return ar
+
   
     
     /* 
@@ -27,6 +28,7 @@ function multiplyByN(arr, n) {
     }
     arr = arr.map(mul_by_N)
     return arr
+
     
     
     /* 
@@ -39,9 +41,10 @@ function multiplyByN(arr, n) {
 }
 
 function removeNthElement(arr, n) {
-  
     arr.splice(n,1);
     return arr;
+  
+
     /*
         Return the array with the element present at index n removed
         Example
