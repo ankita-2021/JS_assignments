@@ -6,6 +6,8 @@ function getEven(arr) {
         }
     }
     return ar
+
+  
     
     /* 
         Return an array containing only even numbers as a result
@@ -26,6 +28,8 @@ function multiplyByN(arr, n) {
     }
     arr = arr.map(mul_by_N)
     return arr
+
+    
     
     /* 
         Return an array whose elements are multiplied by n
@@ -37,9 +41,10 @@ function multiplyByN(arr, n) {
 }
 
 function removeNthElement(arr, n) {
-  
     arr.splice(n,1);
     return arr;
+  
+
     /*
         Return the array with the element present at index n removed
         Example
